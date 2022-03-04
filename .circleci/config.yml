@@ -36,5 +36,5 @@ workflows:
   maven_test:
     jobs:
       - maven/test:
-          app_src_directory: /pom.xml 
+
           command: test
