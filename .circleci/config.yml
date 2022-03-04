@@ -34,5 +34,4 @@ jobs:
 workflows:
   maven_test:
     jobs:
-    - maven/test:
-          app_src_directory: AddressBook
+    - maven/test
