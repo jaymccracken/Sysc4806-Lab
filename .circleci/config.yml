@@ -34,4 +34,6 @@ jobs:
 workflows:
   maven_test:
     jobs:
-    - maven/test
+    - maven/test:
+      app_src_directory: /AdressBook/pom.xml 
+      command: test
