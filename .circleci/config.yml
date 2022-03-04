@@ -34,5 +34,5 @@ jobs:
 workflows:
   maven_test:
     jobs:
-      - maven/test # checkout, build, test, and upload test results
+    - maven/test:
           app_src_directory: AddressBook
